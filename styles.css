@@ -1,0 +1,67 @@
+*, html, div, body {
+    padding: 0;
+    margin: 0;;
+    font-family: "Roboto", sans-serif;
+}
+
+section {
+    min-height: 720px;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+@media screen and (max-width: 600px) {
+h1 {
+    font-size: 2rem
+}    
+}
+
+/* Colors */
+.bg-black {
+    background-color: #222222;
+}
+.bg-grey {
+    background-color: lightcyan;
+}
+
+.text-white {
+    color: white;
+} 
+
+/* Positioning */
+.text-center {
+    text-align:  center;
+}
+
+.content {
+    max-width: 900px;
+}
+
+.small-content {
+    max-width: 600px;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
