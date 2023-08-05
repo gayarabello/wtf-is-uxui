@@ -1,18 +1,16 @@
 const logUser = () => {
-  const checkPass = prompt("What is the pass?");
-
   let logged = false;
 
-  if (!logged && checkPass === "tralala") {
-    const myPresentation = document.createElement("div");
-    myPresentation.innerText = "Muito Bem!";
-    const body = document.getElementsByTagName("body");
-    body[0].appendChild(myPresentation);
+  const checkPass = prompt("What is the pass?");
+
+  if (!logged && checkPass == "donaldnorman") {
     logged = true;
+    const body = document.getElementsByTagName("body")[0];
+    const passWall = body.children[0];
+    body.removeChild(passWall);
   } else {
-    alert("Try Again");
-    logUser()
+    alert("Reload the page to try Again");
   }
 };
 
-//logUser()
+logUser();

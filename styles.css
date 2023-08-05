@@ -1,67 +1,83 @@
-*, html, div, body {
-    padding: 0;
-    margin: 0;;
-    font-family: "Roboto", sans-serif;
+*,
+html,
+div,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  display: block;
+  margin: 1rem 0;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0px;
+  text-align: left;
+  padding: 2rem 0;
+  background-color: white;
 }
 
 section {
-    min-height: 720px;
+  min-height: 720px;
 }
 
 p {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 h1 {
-    font-size: 6rem;
+  font-size: 6rem;
 }
 
 @media screen and (max-width: 600px) {
-h1 {
-    font-size: 2rem
-}    
+  h1 {
+    font-size: 2rem;
+  }
 }
 
 /* Colors */
 .bg-black {
-    background-color: #222222;
+  background-color: #222222;
 }
 .bg-grey {
-    background-color: lightcyan;
+  background-color: lightcyan;
 }
 
 .text-white {
-    color: white;
-} 
+  color: white;
+}
 
 /* Positioning */
 .text-center {
-    text-align:  center;
+  text-align: center;
 }
 
 .content {
-    max-width: 900px;
+  max-width: 900px;
 }
 
 .small-content {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .mx-auto {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .items-center {
-    align-items: center;
+  align-items: center;
 }
 
 .justify-center {
-    justify-content: center;
+  justify-content: center;
 }
 .justify-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
